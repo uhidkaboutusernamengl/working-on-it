@@ -98,16 +98,9 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(52, 74, 95)
     },
-    Sentinel = {
+    SyKo = {
         SchemeColor = Color3.fromRGB(230, 35, 69),
         Background = Color3.fromRGB(32, 32, 32),
-        Header = Color3.fromRGB(24, 24, 24),
-        TextColor = Color3.fromRGB(119, 209, 138),
-        ElementColor = Color3.fromRGB(24, 24, 24)
-    },
-    SyKo = {
-        SchemeColor = Color3.fromRGB(255, 0, 0),
-        Background = Color3.fromRGB(255, 32, 32),
         Header = Color3.fromRGB(24, 24, 24),
         TextColor = Color3.fromRGB(119, 209, 138),
         ElementColor = Color3.fromRGB(24, 24, 24)
