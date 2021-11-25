@@ -99,12 +99,12 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(52, 74, 95)
     },
-     = {
-        SchemeColor = Color3.fromRGB(227, 27, 27),
-        Background = Color3.fromRGB(10, 10, 10),
-        Header = Color3.fromRGB(5, 5, 5),
-        TextColor = Color3.fromRGB(255,0,0),
-        ElementColor = Color3.fromRGB(20, 20, 20)
+    Syko = {
+        SchemeColor = Color3.fromRGB(0, 0, 255),
+        Background = Color3.fromRGB(26, 32, 58),
+        Header = Color3.fromRGB(0, 0, 0),
+        TextColor = Color3.fromRGB(255, 255, 255),
+        ElementColor = Color3.fromRGB(38, 45, 71)
     },
     Synapse = {
         SchemeColor = Color3.fromRGB(46, 48, 43),
@@ -168,8 +168,8 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.Sentinel
     elseif themeList == "Synapse" then
         themeList = themeStyles.Synapse
-    elseif themeList == "id" then
-        themeList = themeStyles.BloodTheme
+    elseif themeList == "Syko" then
+        themeList = themeStyles.Syko
     else
         if themeList.SchemeColor == nil then
             themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
