@@ -1,3 +1,4 @@
+
 local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/uhidkaboutusernamengl/working-on-it/main/silent%20aim%20other%20SyKoLOL"))()
 Aiming.TeamCheck(false)
 
