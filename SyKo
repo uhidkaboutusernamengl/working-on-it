@@ -85,10 +85,10 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(74, 58, 84)
     },
-    Ocean = {
+    SyKoX = {
         SchemeColor = Color3.fromRGB(0, 0, 255),
         Background = Color3.fromRGB(26, 32, 58),
-        Header = Color3.fromRGB(0, 0, 255),
+        Header = Color3.fromRGB(0, 0, 0),
         TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(38, 45, 71)
     },
@@ -99,7 +99,7 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(52, 74, 95)
     },
-    SyKo = {
+     = {
         SchemeColor = Color3.fromRGB(227, 27, 27),
         Background = Color3.fromRGB(10, 10, 10),
         Header = Color3.fromRGB(5, 5, 5),
@@ -160,15 +160,15 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.BloodTheme
     elseif themeList == "GrapeTheme" then
         themeList = themeStyles.GrapeTheme
-    elseif themeList == "Ocean" then
-        themeList = themeStyles.Ocean
+    elseif themeList == "SykoX" then
+        themeList = themeStyles.SykoX
     elseif themeList == "Midnight" then
         themeList = themeStyles.Midnight
     elseif themeList == "Sentinel" then
         themeList = themeStyles.Sentinel
     elseif themeList == "Synapse" then
         themeList = themeStyles.Synapse
-    elseif themeList == "Syko" then
+    elseif themeList == "id" then
         themeList = themeStyles.BloodTheme
     else
         if themeList.SchemeColor == nil then
